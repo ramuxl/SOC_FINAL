@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/INTRA/chakal/workspace/project/vivado/ECHO_MODULE/EM_TB_isim_beh.exe" -prj "/home/INTRA/chakal/workspace/project/vivado/ECHO_MODULE/EM_TB_beh.prj" "work.EM_TB" 

@@ -1,0 +1,290 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Sat May 20 09:58:00 2017
+| Host         : lx17 running 64-bit SUSE Linux Enterprise Desktop 11 (x86_64)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'project_ECHO_MODULE_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of project_ECHO_MODULE_0_1 (xilinx.com:user:ECHO_MODULE:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Sat May 20 09:32:13 2017
+| Host         : lx17 running 64-bit SUSE Linux Enterprise Desktop 11 (x86_64)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'project_ECHO_MODULE_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of project_ECHO_MODULE_0_1 (xilinx.com:user:ECHO_MODULE:1.0) from (Rev. 7) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Sat May 20 08:21:17 2017
+| Host         : lx17 running 64-bit SUSE Linux Enterprise Desktop 11 (x86_64)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'project_ECHO_MODULE_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of project_ECHO_MODULE_0_1 (xilinx.com:user:ECHO_MODULE:1.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Sat May 20 07:49:11 2017
+| Host         : lx17 running 64-bit SUSE Linux Enterprise Desktop 11 (x86_64)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'project_ECHO_MODULE_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of project_ECHO_MODULE_0_1 (xilinx.com:user:ECHO_MODULE:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Fri May 19 21:59:19 2017
+| Host         : lx17 running 64-bit SUSE Linux Enterprise Desktop 11 (x86_64)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'project_ECHO_MODULE_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of project_ECHO_MODULE_0_0 (xilinx.com:user:ECHO_MODULE:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Fri May 19 21:52:59 2017
+| Host         : lx17 running 64-bit SUSE Linux Enterprise Desktop 11 (x86_64)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'project_ECHO_MODULE_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of project_ECHO_MODULE_0_0 (xilinx.com:user:ECHO_MODULE:1.0) from (Rev. 3) to (Rev. 4)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'project_ECHO_MODULE_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'sample_clk'
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Fri May 19 21:05:47 2017
+| Host         : lx17 running 64-bit SUSE Linux Enterprise Desktop 11 (x86_64)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'project_ECHO_MODULE_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of project_ECHO_MODULE_0_0 (xilinx.com:user:ECHO_MODULE:1.0 (Rev. 3)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Fri May 19 21:05:01 2017
+| Host         : lx17 running 64-bit SUSE Linux Enterprise Desktop 11 (x86_64)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'project_ECHO_MODULE_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of project_ECHO_MODULE_0_0 (xilinx.com:user:ECHO_MODULE:1.0) from (Rev. 2) to (Rev. 3)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'project_ECHO_MODULE_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'sample_clk'
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Fri May 19 21:02:31 2017
+| Host         : lx17 running 64-bit SUSE Linux Enterprise Desktop 11 (x86_64)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'project_ECHO_MODULE_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of project_ECHO_MODULE_0_0 (xilinx.com:user:ECHO_MODULE:1.0 (Rev. 2)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 18 18:17:07 2017
+| Host         : lx17 running 64-bit SUSE Linux Enterprise Desktop 11 (x86_64)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'project_FILTER_IIR_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of project_FILTER_IIR_0_1 (tsotnep:userLibrary:FILTER_IIR:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 18 18:17:07 2017
+| Host         : lx17 running 64-bit SUSE Linux Enterprise Desktop 11 (x86_64)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'project_FILTER_IIR_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of project_FILTER_IIR_0_0 (tsotnep:userLibrary:FILTER_IIR:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 18 18:10:11 2017
+| Host         : lx17 running 64-bit SUSE Linux Enterprise Desktop 11 (x86_64)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'project_FILTER_IIR_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of project_FILTER_IIR_0_1 (tsotnep:userLibrary:FILTER_IIR:1.0) from (Rev. 1) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
+| Date         : Thu May 18 18:10:11 2017
+| Host         : lx17 running 64-bit SUSE Linux Enterprise Desktop 11 (x86_64)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'project_FILTER_IIR_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of project_FILTER_IIR_0_0 (tsotnep:userLibrary:FILTER_IIR:1.0) from (Rev. 1) to (Rev. 3)
+

@@ -1,0 +1,154 @@
+/*
+
+Vivado v2016.1 (64-bit)
+SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
+Process ID: 9319
+
+Current time: 	5/19/17 6:39:41 AM EEST
+Time zone: 	Eastern European Time (Europe/Tallinn)
+
+OS: SUSE Linux Enterprise Desktop 11 (x86_64)
+Version: 3.0.101-84-default
+Architecture: amd64
+Available processors (cores): 8
+
+DISPLAY: localhost:10.0
+Screen size: 3286x1080
+Screen resolution (DPI): 74
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	/cad/x_16/Vivado/2016.1/tps/lnx64/jre
+
+User name: 	INTRA\chakal
+User home directory: /home/INTRA/chakal
+User working directory: /home/INTRA/chakal/workspace/project/vivado
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: /cad/x_16/Vivado
+RDI Data directory: /cad/x_16/Vivado/2016.1/data
+RDI Bin directory: /cad/x_16/Vivado/2016.1/bin
+
+Vivado preferences path: /home/INTRA/chakal/.Xilinx/Vivado/2016.1/vivado.ini
+Vivado layouts directory: /home/INTRA/chakal/.Xilinx/Vivado/2016.1/layouts
+
+GUI allocated memory:	188 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,860 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// Tcl Message: Warning: Cannot convert string "nil2" to type FontStruct xterm:  unable to open font "-misc-fixed-medium-r-semicondensed-*-13-120-75-75-c-60-iso10646-1", trying "fixed".... 
+// [GUI Memory]: 32 MB (+31370kb) [00:00:08]
+// [Engine Memory]: 4,860 MB (+4944099kb) [00:00:08]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,865 MB. GUI used memory: 24 MB. Current time: 5/19/17 6:39:43 AM EEST
+// [GUI Memory]: 42 MB (+8101kb) [00:00:33]
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // l:JideButton (JPanel:JComponent, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// [GUI Memory]: 51 MB (+7255kb) [00:02:40]
+setFileChooser("/home/INTRA/chakal/workspace/project/vivado/project.xpr");
+// [GUI Memory]: 60 MB (+7040kb) [00:02:45]
+// Opening Vivado Project: /home/INTRA/chakal/workspace/project/vivado/project.xpr. Version: Vivado v2016.1 
+// bL:g (cv:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/INTRA/chakal/workspace/project/vivado/project.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 4,900 MB. GUI used memory: 29 MB. Current time: 5/19/17 6:42:17 AM EEST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project /home/INTRA/chakal/workspace/project/vivado/project.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 65 MB (+2279kb) [00:02:56]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project; location: /home/INTRA/chakal/workspace/project/vivado; part: xc7z020clg484-1
+// 'i' command handler elapsed time: 19 seconds
+// Elapsed time: 11 seconds
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // l:JideButton (JPanel:JComponent)
+// Tcl Message: open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 5888.898 ; gain = 136.680 ; free physical = 1306 ; free virtual = 5170 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 28 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bL:g (cv:JFrame):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {/home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd} 
+// TclEventType: RSB_OPEN_DIAGRAM
+// [GUI Memory]: 70 MB (+1436kb) [00:03:29]
+// TclEventType: RSB_CONNECTION_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,086 MB. GUI used memory: 43 MB. Current time: 5/19/17 6:43:00 AM EEST
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 5959.551 ; gain = 68.652 ; free physical = 1223 ; free virtual = 5105 
+// 'br' command handler elapsed time: 5 seconds
+// [Engine Memory]: 5,104 MB (+1661kb) [00:03:31]
+dismissDialog("Open Block Design"); // bL:g (cv:JFrame)
+// [GUI Memory]: 78 MB (+5105kb) [00:03:38]
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Elapsed time: 103 seconds
+expandTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[project, mixer_0]", 9); // k:JTree (JViewport:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd), project_i - project (project.bd)]", 2); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd), project_i - project (project.bd)]", 2); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd), project_i - project (project.bd), project - STRUCTURE (project.vhd)]", 3); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd), project_i - project (project.bd), project - STRUCTURE (project.vhd), mixer_0 - project_mixer_0_0 (project_mixer_0_0.xci)]", 12); // z:k (G:JPanel, cv:JFrame)
+// G:be (cv:JFrame): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:be)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // G:be (cv:JFrame)
+// [GUI Memory]: 83 MB (+1137kb) [00:05:54]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd), project_i - project (project.bd), project - STRUCTURE (project.vhd), mixer_0 - project_mixer_0_0 (project_mixer_0_0.xci), project_mixer_0_0 - project_mixer_0_0_arch (project_mixer_0_0.vhd)]", 13); // z:k (G:JPanel, cv:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd), project_i - project (project.bd), project - STRUCTURE (project.vhd), mixer_0 - project_mixer_0_0 (project_mixer_0_0.xci), project_mixer_0_0 - project_mixer_0_0_arch (project_mixer_0_0.vhd)]", 13); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd), project_i - project (project.bd), project - STRUCTURE (project.vhd), mixer_0 - project_mixer_0_0 (project_mixer_0_0.xci), project_mixer_0_0 - project_mixer_0_0_arch (project_mixer_0_0.vhd)]", 13); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd), project_i - project (project.bd), project - STRUCTURE (project.vhd), mixer_0 - project_mixer_0_0 (project_mixer_0_0.xci), project_mixer_0_0 - project_mixer_0_0_arch (project_mixer_0_0.vhd), U0 - mixer - RTL (mixer.vhd)]", 14, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd), project_i - project (project.bd), project - STRUCTURE (project.vhd), mixer_0 - project_mixer_0_0 (project_mixer_0_0.xci), project_mixer_0_0 - project_mixer_0_0_arch (project_mixer_0_0.vhd), U0 - mixer - RTL (mixer.vhd)]", 14, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// Elapsed time: 46 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// [GUI Memory]: 89 MB (+1448kb) [00:06:51]
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Customize Commands"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,114 MB. GUI used memory: 47 MB. Current time: 5/19/17 7:13:04 AM EEST
+// Elapsed time: 2695 seconds
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectCodeEditor("mixer.vhd", 585, 233); // F:bH (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,114 MB. GUI used memory: 43 MB. Current time: 5/19/17 7:43:04 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,116 MB. GUI used memory: 42 MB. Current time: 5/19/17 8:13:04 AM EEST
+// [GUI Memory]: 94 MB (+1000kb) [02:03:29]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,116 MB. GUI used memory: 43 MB. Current time: 5/19/17 8:43:04 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,116 MB. GUI used memory: 42 MB. Current time: 5/19/17 9:13:04 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,116 MB. GUI used memory: 42 MB. Current time: 5/19/17 9:43:04 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,116 MB. GUI used memory: 42 MB. Current time: 5/19/17 10:13:04 AM EEST

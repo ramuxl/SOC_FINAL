@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Sat May 20 05:59:25 2017
+# Process ID: 3513
+# Current directory: /home/INTRA/chakal/workspace/project/vivado
+# Command line: vivado
+# Log file: /home/INTRA/chakal/workspace/project/vivado/vivado.log
+# Journal file: /home/INTRA/chakal/workspace/project/vivado/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/INTRA/chakal/workspace/project/vivado/project.xpr
+update_compile_order -fileset sources_1
+open_bd_design {/home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd}
+delete_bd_objs [get_bd_nets zed_audio_0_sample_clk_48k]
+connect_bd_net [get_bd_pins zed_audio_0/new_sample] [get_bd_pins ECHO_MODULE_0/sample_clk]
+delete_bd_objs [get_bd_nets zed_audio_0_new_sample] [get_bd_nets blk_mem_gen_1_doutb] [get_bd_nets blk_mem_gen_0_doutb] [get_bd_nets ECHO_MODULE_0_AUDIO_OUT_L] [get_bd_nets ECHO_MODULE_0_AUDIO_OUT_R] [get_bd_intf_nets processing_system7_0_axi_periph_M08_AXI] [get_bd_cells ECHO_MODULE_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:ECHO_MODULE:1.0 ECHO_MODULE_0
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins ECHO_MODULE_0/S00_AXI]
+set_property location {5 1663 238} [get_bd_cells ECHO_MODULE_0]
+connect_bd_net [get_bd_pins ECHO_MODULE_0/mem_rst] [get_bd_pins blk_mem_gen_1/rstb]
+connect_bd_net [get_bd_pins ECHO_MODULE_0/wrt_en] [get_bd_pins blk_mem_gen_1/wea]
+connect_bd_net [get_bd_pins ECHO_MODULE_0/add_a] [get_bd_pins blk_mem_gen_1/addra]
+connect_bd_net [get_bd_pins ECHO_MODULE_0/add_b] [get_bd_pins blk_mem_gen_1/addrb]
+connect_bd_net [get_bd_pins ECHO_MODULE_0/AUDIO_OUT_L] [get_bd_pins zed_audio_0/hphone_l]
+connect_bd_net [get_bd_pins ECHO_MODULE_0/AUDIO_OUT_R] [get_bd_pins zed_audio_0/hphone_r]
+connect_bd_net [get_bd_pins ECHO_MODULE_0/AUDIO_IN_R] [get_bd_pins mixer_0/audio_mixed_a_b_right_out]
+connect_bd_net [get_bd_pins ECHO_MODULE_0/AUDIO_IN_L] [get_bd_pins mixer_0/audio_mixed_a_b_left_out]
+connect_bd_net [get_bd_pins blk_mem_gen_0/doutb] [get_bd_pins ECHO_MODULE_0/AUDIO_IN_R_MEM]
+connect_bd_net [get_bd_pins blk_mem_gen_1/doutb] [get_bd_pins ECHO_MODULE_0/AUDIO_IN_L_MEM]
+connect_bd_net [get_bd_pins zed_audio_0/new_sample] [get_bd_pins ECHO_MODULE_0/sample_clk]
+validate_bd_design
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

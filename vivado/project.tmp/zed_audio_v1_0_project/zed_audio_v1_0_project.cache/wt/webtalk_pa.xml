@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Fri May 19 21:04:21 2017">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="a066069483b54e758a016f31d4ff50d2" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="CloseProject" value="1" type="JavaHandler"/>
+<property name="CustomizeRSBBlock" value="3" type="JavaHandler"/>
+<property name="EditInIPPackagerHandler" value="2" type="JavaHandler"/>
+<property name="IPPackagerHandler" value="2" type="JavaHandler"/>
+<property name="NewExportHardware" value="1" type="JavaHandler"/>
+<property name="NewLaunchHardware" value="2" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="1" type="JavaHandler"/>
+<property name="UpgradeIP" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="ECHO_MODULE.vhd, 107, 353" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 111, 352" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 133, 356" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 137, 320" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 138, 323" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 140, 335" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 140, 402" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 140, 519" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 155, 427" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 161, 352" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 163, 353" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 163, 457" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 165, 383" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 166, 370" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 168, 373" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 169, 368" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 173, 595" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 175, 366" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 181, 519" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 181, 519, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 183, 349" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 183, 349, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 188, 412" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 188, 412, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 190, 306" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 191, 519" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 191, 519, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 193, 499" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 194, 308" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 196, 305" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 196, 527" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 196, 550" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 196, 550, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 198, 386" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 198, 523" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 198, 553" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 200, 295" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 200, 300" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 204, 371" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 204, 371, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 208, 497" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 211, 158" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 246, 352" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 246, 352, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 250, 398" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 254, 368" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 254, 368, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 254, 396" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 255, 354" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 262, 369" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 269, 523" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 269, 523, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 273, 50" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 275, 368" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 276, 217" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 281, 330, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 292, 445" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 309, 354" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 327, 336" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 380, 522" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 380, 522, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE.vhd, 380, 547" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE_v1_0.vhd, 239, 260" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE_v1_0.vhd, 239, 445" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE_v1_0.vhd, 240, 323" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE_v1_0_S00_AXI.vhd, 235, 281" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE_v1_0_S00_AXI.vhd, 270, 278" value="1" type="GuiResourceData"/>
+<property name="ECHO_MODULE_v1_0_S00_AXI.vhd, 285, 413" value="1" type="GuiResourceData"/>
+<property name="FILTER_IIR_v1_0_S00_AXI.vhd, 169, 292" value="1" type="GuiResourceData"/>
+<property name="FILTER_IIR_v1_0_S00_AXI.vhd, 190, 291" value="1" type="GuiResourceData"/>
+<property name="FILTER_IIR_v1_0_S00_AXI.vhd, 195, 290" value="2" type="GuiResourceData"/>
+<property name="FILTER_IIR_v1_0_S00_AXI.vhd, 195, 290, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="FILTER_IIR_v1_0_S00_AXI.vhd, 202, 287" value="1" type="GuiResourceData"/>
+<property name="FILTER_IIR_v1_0_S00_AXI.vhd, 209, 291" value="1" type="GuiResourceData"/>
+<property name="FILTER_IIR_v1_0_S00_AXI.vhd, 267, 296" value="1" type="GuiResourceData"/>
+<property name="FILTER_IIR_v1_0_S00_AXI.vhd, 74, 338" value="1" type="GuiResourceData"/>
+<property name="FILTER_IIR_v1_0_S00_AXI.vhd, 74, 338, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, Block Memory Generator, 1, Block Memory Generator, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, Edit in IP Packager" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_EXPORT_HARDWARE, Export Hardware..." value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, Launch SDK" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, ECHO_MODULE_v1_0 - arch_imp (ECHO_MODULE_v1_0.vhd" value="10" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, audio_top - Behavioral (audio_top.vhd" value="6" type="GuiResourceData"/>
+<property name="PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, Upgrade Selected" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_EXPORT, Export" value="3" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="6" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, Open Recent File" value="3" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, Customization Parameters, 3" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, File Groups, 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, Refresh IP Catalog" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SelectMenu_HIGHLIGHT, Highlight" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, Generate" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, IP Documentation" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemBuilderView_ADD_IP, System_RSB_ADD_IP" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="2" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="8" type="GuiResourceData"/>
+<property name="RDIResource.HCodeEditor_DIFF_WITH, Diff with" value="1" type="GuiResourceData"/>
+<property name="audio_top.vhd, 177, 352" value="1" type="GuiResourceData"/>
+<property name="audio_top.vhd, 219, 100" value="1" type="GuiResourceData"/>
+<property name="audio_top.vhd, 219, 100, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="audio_top.vhd, 699, 25" value="1" type="GuiResourceData"/>
+<property name="audio_top.vhd, 729, 31" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="1" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="0" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

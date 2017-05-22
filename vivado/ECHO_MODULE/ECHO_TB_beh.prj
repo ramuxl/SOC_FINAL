@@ -1,0 +1,2 @@
+vhdl work "ECHO_MODULE.vhd"
+vhdl work "ECHO_TB.vhd"

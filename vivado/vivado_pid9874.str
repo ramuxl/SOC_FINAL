@@ -1,0 +1,1734 @@
+/*
+
+Vivado v2016.1 (64-bit)
+SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
+Process ID: 9874
+
+Current time: 	5/20/17 7:15:26 AM EEST
+Time zone: 	Eastern European Time (Europe/Tallinn)
+
+OS: SUSE Linux Enterprise Desktop 11 (x86_64)
+Version: 3.0.101-84-default
+Architecture: amd64
+Available processors (cores): 8
+
+DISPLAY: :0.0
+Screen size: 1920x1200
+Screen resolution (DPI): 93
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	/cad/x_16/Vivado/2016.1/tps/lnx64/jre
+
+User name: 	INTRA\chakal
+User home directory: /home/INTRA/chakal
+User working directory: /home/INTRA/chakal/workspace/project/vivado
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: /cad/x_16/Vivado
+RDI Data directory: /cad/x_16/Vivado/2016.1/data
+RDI Bin directory: /cad/x_16/Vivado/2016.1/bin
+
+Vivado preferences path: /home/INTRA/chakal/.Xilinx/Vivado/2016.1/vivado.ini
+Vivado layouts directory: /home/INTRA/chakal/.Xilinx/Vivado/2016.1/layouts
+
+GUI allocated memory:	169 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,867 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 38 MB (+37848kb) [00:00:05]
+// [Engine Memory]: 4,867 MB (+4951476kb) [00:00:05]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,877 MB. GUI used memory: 30 MB. Current time: 5/20/17 7:15:29 AM EEST
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // l:JideButton (JPanel:JComponent, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+setFileChooser("/home/INTRA/chakal/workspace/project/vivado/project.xpr");
+// Opening Vivado Project: /home/INTRA/chakal/workspace/project/vivado/project.xpr. Version: Vivado v2016.1 
+// bL:g (cv:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/INTRA/chakal/workspace/project/vivado/project.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 43 MB (+3231kb) [00:01:58]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,905 MB. GUI used memory: 30 MB. Current time: 5/20/17 7:17:19 AM EEST
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 55 MB (+9751kb) [00:02:02]
+// [GUI Memory]: 66 MB (+9028kb) [00:02:03]
+// [GUI Memory]: 71 MB (+1200kb) [00:02:03]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project /home/INTRA/chakal/workspace/project/vivado/project.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 76 MB (+2079kb) [00:02:06]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project; location: /home/INTRA/chakal/workspace/project/vivado; part: xc7z020clg484-1
+// 'i' command handler elapsed time: 10 seconds
+// Tcl Message: open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:09 . Memory (MB): peak = 5924.266 ; gain = 165.754 ; free physical = 4044 ; free virtual = 6573 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bL:g (cv:JFrame):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {/home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd} 
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// 'br' command handler elapsed time: 4 seconds
+dismissDialog("Open Block Design"); // bL:g (cv:JFrame)
+// [GUI Memory]: 80 MB (+184kb) [00:02:47]
+// [GUI Memory]: 86 MB (+1083kb) [00:02:52]
+// Elapsed time: 40 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// [GUI Memory]: 92 MB (+1781kb) [00:02:53]
+// [Engine Memory]: 5,113 MB (+3132kb) [00:02:54]
+// Elapsed time: 18 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// af:x (cv:JFrame): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // h:JCheckBox (JPanel:JComponent, af:x): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, af:x)
+// [GUI Memory]: 98 MB (+1579kb) [00:03:16]
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // JButton:AbstractButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Export Hardware"); // af:x (cv:JFrame)
+// Tcl Message: file copy -force /home/INTRA/chakal/workspace/project/vivado/project.runs/impl_1/project_wrapper.sysdef /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// ai:x (cv:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ai:x)
+dismissDialog("Launch SDK"); // ai:x (cv:JFrame)
+// Tcl Message: launch_sdk -workspace /home/INTRA/chakal/workspace/project/vivado/project.sdk -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/INTRA/chakal/workspace/project/vivado/project.sdk -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// [GUI Memory]: 103 MB (+345kb) [00:10:22]
+// Elapsed time: 989 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd), project_i - project (project.bd), project - STRUCTURE (project.vhd)]", 3); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd), project_i - project (project.bd), project - STRUCTURE (project.vhd), ECHO_MODULE_0 - project_ECHO_MODULE_0_1 (project_ECHO_MODULE_0_1.xci)]", 4); // z:k (G:JPanel, cv:JFrame)
+// G:be (cv:JFrame): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:be)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // G:be (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 109 MB (+752kb) [00:20:01]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd), project_i - project (project.bd), project - STRUCTURE (project.vhd), ECHO_MODULE_0 - project_ECHO_MODULE_0_1 (project_ECHO_MODULE_0_1.xci), project_ECHO_MODULE_0_1 - project_ECHO_MODULE_0_1_arch (project_ECHO_MODULE_0_1.vhd)]", 5); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd), project_i - project (project.bd), project - STRUCTURE (project.vhd), ECHO_MODULE_0 - project_ECHO_MODULE_0_1 (project_ECHO_MODULE_0_1.xci), project_ECHO_MODULE_0_1 - project_ECHO_MODULE_0_1_arch (project_ECHO_MODULE_0_1.vhd), U0 - ECHO_MODULE_v1_0 - arch_imp (ECHO_MODULE_v1_0.vhd), ECHO_MODULE_v1_0_S00_AXI_inst - ECHO_MODULE_v1_0_S00_AXI - arch_imp (ECHO_MODULE_v1_0_S00_AXI.vhd), ECHO_MODULE_INST - ECHO_MODULE - RTL (ECHO_MODULE.vhd)]", 8, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd), project_i - project (project.bd), project - STRUCTURE (project.vhd), ECHO_MODULE_0 - project_ECHO_MODULE_0_1 (project_ECHO_MODULE_0_1.xci), project_ECHO_MODULE_0_1 - project_ECHO_MODULE_0_1_arch (project_ECHO_MODULE_0_1.vhd), U0 - ECHO_MODULE_v1_0 - arch_imp (ECHO_MODULE_v1_0.vhd), ECHO_MODULE_v1_0_S00_AXI_inst - ECHO_MODULE_v1_0_S00_AXI - arch_imp (ECHO_MODULE_v1_0_S00_AXI.vhd), ECHO_MODULE_INST - ECHO_MODULE - RTL (ECHO_MODULE.vhd)]", 8, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// Elapsed time: 25 seconds
+selectCodeEditor("ECHO_MODULE.vhd", 220, 411); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 220, 411, false, false, false, false, true); // F:bH (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("ECHO_MODULE.vhd", 307, 411); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 181, 441); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 181, 441, false, false, false, false, true); // F:bH (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 24 seconds
+selectCodeEditor("ECHO_MODULE.vhd", 152, 136); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 152, 136, false, false, false, false, true); // F:bH (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("ECHO_MODULE.vhd", 76, 184); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 76, 184, false, false, false, false, true); // F:bH (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("ECHO_MODULE.vhd", 143, 184); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 143, 184, false, false, false, false, true); // F:bH (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("ECHO_MODULE.vhd", 212, 186); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 212, 186, false, false, false, false, true); // F:bH (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("ECHO_MODULE.vhd", 289, 188); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 289, 188, false, false, false, false, true); // F:bH (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("ECHO_MODULE.vhd", 145, 323); // F:bH (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("ECHO_MODULE.vhd", 484, 667); // F:bH (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("ECHO_MODULE.vhd", 509, 555); // F:bH (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 152 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 685, 167, 1283, 753, false, false, false, true, false); // ew:aK (TdiGroup:JideTabbedPane, cv:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k:x (cv:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, k:x)
+// bL:g (cv:JFrame):  Edit in IP Packager : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name ECHO_MODULE_v1_0_project -directory /home/INTRA/chakal/workspace/project/vivado/project.tmp/ECHO_MODULE_v1_0_project /home/INTRA/chakal/workspace/project/ip_repo/ECHO_MODULE_1.0/component.xml 
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,150 MB. GUI used memory: 59 MB. Current time: 5/20/17 7:40:01 AM EEST
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/cad/x_16/Vivado/2016.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// 'i' command handler elapsed time: 6 seconds
+dismissDialog("Edit in IP Packager"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ECHO_MODULE_v1_0 - arch_imp (ECHO_MODULE_v1_0.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ECHO_MODULE_v1_0 - arch_imp (ECHO_MODULE_v1_0.vhd), ECHO_MODULE_v1_0_S00_AXI_inst - ECHO_MODULE_v1_0_S00_AXI - arch_imp (ECHO_MODULE_v1_0_S00_AXI.vhd), ECHO_MODULE_INST - ECHO_MODULE - RTL (ECHO_MODULE.vhd)]", 3, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ECHO_MODULE_v1_0 - arch_imp (ECHO_MODULE_v1_0.vhd), ECHO_MODULE_v1_0_S00_AXI_inst - ECHO_MODULE_v1_0_S00_AXI - arch_imp (ECHO_MODULE_v1_0_S00_AXI.vhd), ECHO_MODULE_INST - ECHO_MODULE - RTL (ECHO_MODULE.vhd)]", 3, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("ECHO_MODULE.vhd", 194, 185); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "ECHO_MODULE.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+selectCodeEditor("ECHO_MODULE.vhd", 434, 536); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 472 seconds
+selectCodeEditor("ECHO_MODULE.vhd", 465, 481); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "ECHO_MODULE.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - ECHO_MODULE", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ECHO_MODULE.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ECHO_MODULE_v1_0 - arch_imp (ECHO_MODULE_v1_0.vhd), ECHO_MODULE_v1_0_S00_AXI_inst - ECHO_MODULE_v1_0_S00_AXI - arch_imp (ECHO_MODULE_v1_0_S00_AXI.vhd)]", 2, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ECHO_MODULE_v1_0 - arch_imp (ECHO_MODULE_v1_0.vhd), ECHO_MODULE_v1_0_S00_AXI_inst - ECHO_MODULE_v1_0_S00_AXI - arch_imp (ECHO_MODULE_v1_0_S00_AXI.vhd)]", 2, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ECHO_MODULE_v1_0 - arch_imp (ECHO_MODULE_v1_0.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ECHO_MODULE_v1_0 - arch_imp (ECHO_MODULE_v1_0.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 5,182 MB. GUI used memory: 63 MB. Current time: 5/20/17 7:48:39 AM EEST
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - ECHO_MODULE", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // ao:v (JViewport:JComponent, cv:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization Parameters", 3); // ao:v (JViewport:JComponent, cv:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // ao:v (JViewport:JComponent, cv:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization Parameters", 3); // ao:v (JViewport:JComponent, cv:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // ao:v (JViewport:JComponent, cv:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cv:JFrame)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 6 [ipx::current_core] 
+// bL:g (cv:JFrame):  Package IP : addNotify
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// bL:g (cv:JFrame):  Package IP : addNotify
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_DO_Yes", "Yes"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,179 MB. GUI used memory: 62 MB. Current time: 5/20/17 7:48:58 AM EEST
+// Tcl Message: close_project -delete 
+dismissDialog("Package IP"); // bL:g (cv:JFrame)
+// Tcl Message: ****** Webtalk v2016.1 (64-bit)   **** SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016   **** IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source /home/INTRA/chakal/workspace/project/vivado/project.tmp/ECHO_MODULE_v1_0_project/ECHO_MODULE_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace INFO: [Common 17-206] Exiting Webtalk at Sat May 20 07:48:58 2017... 
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog -rebuild -repo_path /home/INTRA/chakal/workspace/project/ip_repo/ECHO_MODULE_1.0 
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository '/home/INTRA/chakal/workspace/project/ip_repo/ECHO_MODULE_1.0' 
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_REPORT_IP_STATUS, "Report IP Status"); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// bL:g (cv:JFrame):  Report IP Status : addNotify
+// Tcl Message: report_ip_status -name ip_status  
+dismissDialog("Report IP Status"); // bL:g (cv:JFrame)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a:JButton (JPanel:JComponent, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// Tcl Message: export_ip_user_files -of_objects [get_ips  project_ECHO_MODULE_0_1] -no_script -reset -quiet 
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// bL:g (cv:JFrame):  Upgrade IP : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: upgrade_ip -vlnv xilinx.com:user:ECHO_MODULE:1.0 [get_ips  project_ECHO_MODULE_0_1] -log ip_upgrade.log 
+// Tcl Message: Upgrading '/home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd' 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded project_ECHO_MODULE_0_1 (ECHO_MODULE_v1.0 1.0) from revision 5 to revision 6 
+// Tcl Message: Wrote  : </home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to '/home/INTRA/chakal/workspace/project/vivado/ip_upgrade.log'. 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// aD:x (cv:JFrame): Generate Output Products: addNotify
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aD:x)
+// bL:g (cv:JFrame):  Managing Output Products : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: generate_target all [get_files  /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: VHDL Output written to : /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/hdl/project.vhd VHDL Output written to : /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/hdl/project_wrapper.vhd Wrote  : </home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd>  
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/hw_handoff/project.hwh 
+// Tcl Message: INFO: [Device 21-403] Loading part xc7z020clg484-1 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,321 MB. GUI used memory: 61 MB. Current time: 5/20/17 7:49:29 AM EEST
+// [Engine Memory]: 5,387 MB (+19425kb) [00:34:14]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Generated Block Design Tcl file /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/hw_handoff/project_bd.tcl Generated Hardware Definition File /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/hdl/project.hwdef 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 6288.492 ; gain = 212.855 ; free physical = 2399 ; free virtual = 6001 
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd] -no_script -force -quiet 
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: export_simulation -of_objects [get_files /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd] -directory /home/INTRA/chakal/workspace/project/vivado/project.ip_user_files/sim_scripts -ip_user_files_dir /home/INTRA/chakal/workspace/project/vivado/project.ip_user_files -ipstatic_source_dir /home/INTRA/chakal/workspace/project/vivado/project.ip_user_files/ipstatic -force -quiet 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 26 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_GENERATION_OF_OUTPUT_PRODUCTS_COMPLETED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// af:x (cv:JFrame): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // h:JCheckBox (JPanel:JComponent, af:x): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, af:x)
+selectButton("PAResourceItoN.NewExportHardwareDialog_BITSTREAM_OUT_OF_DATE_DO_YOU_WANT_Yes", "Yes"); // JButton:AbstractButton (JPanel:JComponent, U:JDialog)
+// 'n' command handler elapsed time: 6 seconds
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // JButton:AbstractButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Export Hardware"); // af:x (cv:JFrame)
+// Tcl Message: file copy -force /home/INTRA/chakal/workspace/project/vivado/project.runs/impl_1/project_wrapper.sysdef /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf  
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // h:JCheckBox (JPanel:JComponent, G:be): TRUE
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// 'cj' command handler elapsed time: 3 seconds
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sat May 20 07:50:02 2017] Launched synth_1... Run output will be captured here: /home/INTRA/chakal/workspace/project/vivado/project.runs/synth_1/runme.log [Sat May 20 07:50:02 2017] Launched impl_1... Run output will be captured here: /home/INTRA/chakal/workspace/project/vivado/project.runs/impl_1/runme.log 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,447 MB. GUI used memory: 52 MB. Current time: 5/20/17 7:50:04 AM EEST
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // i:l (JPanel:JComponent, cv:JFrame)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_PIN
+// p:g (cv:JFrame): Customize Pin: addNotify
+// Elapsed time: 110 seconds
+dismissDialog("Customize Pin"); // p:g (cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// p:g (cv:JFrame): Re-customize IP: addNotify
+// Elapsed time: 51 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aT:g (F:JPanel, p:g)
+// Elapsed time: 40 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port B Options", 2); // aT:g (F:JPanel, p:g)
+// Elapsed time: 17 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 3); // aT:g (F:JPanel, p:g)
+// Elapsed time: 85 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port B Options", 2); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aT:g (F:JPanel, p:g)
+// Elapsed time: 20 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // aT:g (F:JPanel, p:g)
+// Elapsed time: 76 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aT:g (F:JPanel, p:g)
+// Elapsed time: 16 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port B Options", 2); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port B Options", 2); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 3); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 4); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Power Estimation", 1); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, PAResourceEtoH.HACGCTopPanel_IP_SYMBOL, "IP Symbol", 0); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // aT:g (F:JPanel, p:g)
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 121 MB (+7092kb) [00:43:23]
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 114 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, p:g)
+dismissDialog("Re-customize IP"); // p:g (cv:JFrame)
+// [GUI Memory]: 127 MB (+308kb) [00:45:11]
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 259 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// af:x (cv:JFrame): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, af:x)
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // JButton:AbstractButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Export Hardware"); // af:x (cv:JFrame)
+// Tcl Message: file copy -force /home/INTRA/chakal/workspace/project/vivado/project.runs/impl_1/project_wrapper.sysdef /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf  
+// [GUI Memory]: 136 MB (+2841kb) [00:48:43]
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// ai:x (cv:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ai:x)
+dismissDialog("Launch SDK"); // ai:x (cv:JFrame)
+// Tcl Message: launch_sdk -workspace /home/INTRA/chakal/workspace/project/vivado/project.sdk -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/INTRA/chakal/workspace/project/vivado/project.sdk -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// [GUI Memory]: 145 MB (+1399kb) [00:49:17]
+// Elapsed time: 48 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// ai:x (cv:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ai:x)
+dismissDialog("Launch SDK"); // ai:x (cv:JFrame)
+// Tcl Message: launch_sdk -workspace /home/INTRA/chakal/workspace/project/vivado/project.sdk -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/INTRA/chakal/workspace/project/vivado/project.sdk -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 483 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ECHO_MODULE.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 11 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // i:l (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 99 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd), project_i - project (project.bd), project - STRUCTURE (project.vhd), zed_audio_0 - project_zed_audio_0_0 (project_zed_audio_0_0.xci)]", 23); // z:k (G:JPanel, cv:JFrame)
+// G:be (cv:JFrame): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:be)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // G:be (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd), project_i - project (project.bd), project - STRUCTURE (project.vhd), zed_audio_0 - project_zed_audio_0_0 (project_zed_audio_0_0.xci), project_zed_audio_0_0 - project_zed_audio_0_0_arch (project_zed_audio_0_0.vhd)]", 24); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd), project_i - project (project.bd), project - STRUCTURE (project.vhd), zed_audio_0 - project_zed_audio_0_0 (project_zed_audio_0_0.xci), project_zed_audio_0_0 - project_zed_audio_0_0_arch (project_zed_audio_0_0.vhd), U0 - audio_top - Behavioral (audio_top.vhd)]", 25); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd), project_i - project (project.bd), project - STRUCTURE (project.vhd), zed_audio_0 - project_zed_audio_0_0 (project_zed_audio_0_0.xci), project_zed_audio_0_0 - project_zed_audio_0_0_arch (project_zed_audio_0_0.vhd), U0 - audio_top - Behavioral (audio_top.vhd), Inst_adau1761_izedboard - adau1761_izedboard - Behavioral (adau1761_izedboard.vhd)]", 27); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd), project_i - project (project.bd), project - STRUCTURE (project.vhd), zed_audio_0 - project_zed_audio_0_0 (project_zed_audio_0_0.xci), project_zed_audio_0_0 - project_zed_audio_0_0_arch (project_zed_audio_0_0.vhd), U0 - audio_top - Behavioral (audio_top.vhd), Inst_adau1761_izedboard - adau1761_izedboard - Behavioral (adau1761_izedboard.vhd)]", 27, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd), project_i - project (project.bd), project - STRUCTURE (project.vhd), zed_audio_0 - project_zed_audio_0_0 (project_zed_audio_0_0.xci), project_zed_audio_0_0 - project_zed_audio_0_0_arch (project_zed_audio_0_0.vhd), U0 - audio_top - Behavioral (audio_top.vhd), Inst_adau1761_izedboard - adau1761_izedboard - Behavioral (adau1761_izedboard.vhd)]", 27, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// [GUI Memory]: 153 MB (+1488kb) [00:59:43]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd), project_i - project (project.bd), project - STRUCTURE (project.vhd), zed_audio_0 - project_zed_audio_0_0 (project_zed_audio_0_0.xci), project_zed_audio_0_0 - project_zed_audio_0_0_arch (project_zed_audio_0_0.vhd), U0 - audio_top - Behavioral (audio_top.vhd), Inst_adau1761_izedboard - adau1761_izedboard - Behavioral (adau1761_izedboard.vhd)]", 27); // z:k (G:JPanel, cv:JFrame)
+selectCodeEditor("adau1761_izedboard.vhd", 121, 295); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("adau1761_izedboard.vhd", 121, 295, false, false, false, false, true); // F:bH (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 25 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd), project_i - project (project.bd), project - STRUCTURE (project.vhd), zed_audio_0 - project_zed_audio_0_0 (project_zed_audio_0_0.xci), project_zed_audio_0_0 - project_zed_audio_0_0_arch (project_zed_audio_0_0.vhd), U0 - audio_top - Behavioral (audio_top.vhd), Inst_adau1761_izedboard - adau1761_izedboard - Behavioral (adau1761_izedboard.vhd), Inst_i2s_data_interface - i2s_data_interface - Behavioral (i2s_data_interface.vhd)]", 30, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_wrapper - STRUCTURE (project_wrapper.vhd), project_i - project (project.bd), project - STRUCTURE (project.vhd), zed_audio_0 - project_zed_audio_0_0 (project_zed_audio_0_0.xci), project_zed_audio_0_0 - project_zed_audio_0_0_arch (project_zed_audio_0_0.vhd), U0 - audio_top - Behavioral (audio_top.vhd), Inst_adau1761_izedboard - adau1761_izedboard - Behavioral (adau1761_izedboard.vhd), Inst_i2s_data_interface - i2s_data_interface - Behavioral (i2s_data_interface.vhd)]", 30, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("i2s_data_interface.vhd", 114, 275); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2s_data_interface.vhd", 114, 275, false, false, false, false, true); // F:bH (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 22 seconds
+selectCodeEditor("i2s_data_interface.vhd", 156, 487); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2s_data_interface.vhd", 156, 487, false, false, false, false, true); // F:bH (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 27 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ECHO_MODULE.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 303, 473); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 303, 473, false, false, false, false, true); // F:bH (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("ECHO_MODULE.vhd", 294, 489); // F:bH (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 107 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 667, 149, 1283, 753, false, false, false, true, false); // ew:aK (TdiGroup:JideTabbedPane, cv:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k:x (cv:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, k:x)
+// bL:g (cv:JFrame):  Edit in IP Packager : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name ECHO_MODULE_v1_0_project -directory /home/INTRA/chakal/workspace/project/vivado/project.tmp/ECHO_MODULE_v1_0_project /home/INTRA/chakal/workspace/project/ip_repo/ECHO_MODULE_1.0/component.xml 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/cad/x_16/Vivado/2016.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// 'i' command handler elapsed time: 5 seconds
+dismissDialog("Edit in IP Packager"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3, true); // z:k (G:JPanel, cv:JFrame) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ECHO_MODULE_v1_0 - arch_imp (ECHO_MODULE_v1_0.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ECHO_MODULE_v1_0 - arch_imp (ECHO_MODULE_v1_0.vhd), ECHO_MODULE_v1_0_S00_AXI_inst - ECHO_MODULE_v1_0_S00_AXI - arch_imp (ECHO_MODULE_v1_0_S00_AXI.vhd), ECHO_MODULE_INST - ECHO_MODULE - RTL (ECHO_MODULE.vhd)]", 3, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ECHO_MODULE_v1_0 - arch_imp (ECHO_MODULE_v1_0.vhd), ECHO_MODULE_v1_0_S00_AXI_inst - ECHO_MODULE_v1_0_S00_AXI - arch_imp (ECHO_MODULE_v1_0_S00_AXI.vhd), ECHO_MODULE_INST - ECHO_MODULE - RTL (ECHO_MODULE.vhd)]", 3, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("ECHO_MODULE.vhd", 299, 501); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 302, 438); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "ECHO_MODULE.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 213, 513); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("ECHO_MODULE.vhd", 155, 274); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 155, 274, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("ECHO_MODULE.vhd", 216, 517); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 216, 517, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 27 seconds
+selectCodeEditor("ECHO_MODULE.vhd", 281, 489); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 278, 452); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "ECHO_MODULE.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 5,462 MB. GUI used memory: 73 MB. Current time: 5/20/17 8:20:04 AM EEST
+selectCodeEditor("ECHO_MODULE.vhd", 182, 499); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("ECHO_MODULE.vhd", 222, 458); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 222, 458, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("ECHO_MODULE.vhd", 220, 474); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 220, 474, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("ECHO_MODULE.vhd", 183, 591); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - ECHO_MODULE", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // ao:v (JViewport:JComponent, cv:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cv:JFrame)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 7 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// bL:g (cv:JFrame):  Package IP : addNotify
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_DO_Yes", "Yes"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,464 MB. GUI used memory: 71 MB. Current time: 5/20/17 8:21:07 AM EEST
+// Tcl Message: close_project -delete 
+dismissDialog("Package IP"); // bL:g (cv:JFrame)
+// Tcl Message: ****** Webtalk v2016.1 (64-bit)   **** SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016   **** IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source /home/INTRA/chakal/workspace/project/vivado/project.tmp/ECHO_MODULE_v1_0_project/ECHO_MODULE_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace INFO: [Common 17-206] Exiting Webtalk at Sat May 20 08:21:08 2017... 
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog -rebuild -repo_path /home/INTRA/chakal/workspace/project/ip_repo/ECHO_MODULE_1.0 
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository '/home/INTRA/chakal/workspace/project/ip_repo/ECHO_MODULE_1.0' 
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // i:l (JPanel:JComponent, cv:JFrame)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a:JButton (JPanel:JComponent, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// Tcl Message: export_ip_user_files -of_objects [get_ips  project_ECHO_MODULE_0_1] -no_script -reset -quiet 
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// bL:g (cv:JFrame):  Upgrade IP : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: upgrade_ip -vlnv xilinx.com:user:ECHO_MODULE:1.0 [get_ips  project_ECHO_MODULE_0_1] -log ip_upgrade.log 
+// Tcl Message: Upgrading '/home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd' 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded project_ECHO_MODULE_0_1 (ECHO_MODULE_v1.0 1.0) from revision 6 to revision 7 
+// Tcl Message: Wrote  : </home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to '/home/INTRA/chakal/workspace/project/vivado/ip_upgrade.log'. 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// aD:x (cv:JFrame): Generate Output Products: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aD:x)
+// bL:g (cv:JFrame):  Managing Output Products : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: generate_target all [get_files  /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: VHDL Output written to : /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/hdl/project.vhd VHDL Output written to : /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/hdl/project_wrapper.vhd Wrote  : </home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd>  
+// Tcl Message: Exporting to file /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/hw_handoff/project.hwh 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Generated Block Design Tcl file /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/hw_handoff/project_bd.tcl Generated Hardware Definition File /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/hdl/project.hwdef 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 6366.469 ; gain = 0.000 ; free physical = 2651 ; free virtual = 5680 
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd] -no_script -force -quiet 
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: export_simulation -of_objects [get_files /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd] -directory /home/INTRA/chakal/workspace/project/vivado/project.ip_user_files/sim_scripts -ip_user_files_dir /home/INTRA/chakal/workspace/project/vivado/project.ip_user_files -ipstatic_source_dir /home/INTRA/chakal/workspace/project/vivado/project.ip_user_files/ipstatic -force -quiet 
+// Elapsed time: 16 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_GENERATION_OF_OUTPUT_PRODUCTS_COMPLETED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // i:l (JPanel:JComponent, cv:JFrame)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// bL:g (cv:JFrame):  Report IP Status : addNotify
+// Tcl Message: report_ip_status -name ip_status  
+dismissDialog("Report IP Status"); // bL:g (cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sat May 20 08:21:43 2017] Launched synth_1... Run output will be captured here: /home/INTRA/chakal/workspace/project/vivado/project.runs/synth_1/runme.log [Sat May 20 08:21:43 2017] Launched impl_1... Run output will be captured here: /home/INTRA/chakal/workspace/project/vivado/project.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 896 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// af:x (cv:JFrame): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, af:x)
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // JButton:AbstractButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Export Hardware"); // af:x (cv:JFrame)
+// Tcl Message: file copy -force /home/INTRA/chakal/workspace/project/vivado/project.runs/impl_1/project_wrapper.sysdef /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Elapsed time: 18 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// ai:x (cv:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ai:x)
+dismissDialog("Launch SDK"); // ai:x (cv:JFrame)
+// Tcl Message: launch_sdk -workspace /home/INTRA/chakal/workspace/project/vivado/project.sdk -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/INTRA/chakal/workspace/project/vivado/project.sdk -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,459 MB. GUI used memory: 69 MB. Current time: 5/20/17 8:51:09 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,459 MB. GUI used memory: 66 MB. Current time: 5/20/17 9:21:09 AM EEST
+// Elapsed time: 3183 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 726, 159, 1283, 753, false, false, false, true, false); // ew:aK (TdiGroup:JideTabbedPane, cv:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k:x (cv:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, k:x)
+// bL:g (cv:JFrame):  Edit in IP Packager : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name ECHO_MODULE_v1_0_project -directory /home/INTRA/chakal/workspace/project/vivado/project.tmp/ECHO_MODULE_v1_0_project /home/INTRA/chakal/workspace/project/ip_repo/ECHO_MODULE_1.0/component.xml 
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/cad/x_16/Vivado/2016.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// 'i' command handler elapsed time: 5 seconds
+dismissDialog("Edit in IP Packager"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ECHO_MODULE_v1_0 - arch_imp (ECHO_MODULE_v1_0.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ECHO_MODULE_v1_0 - arch_imp (ECHO_MODULE_v1_0.vhd), ECHO_MODULE_v1_0_S00_AXI_inst - ECHO_MODULE_v1_0_S00_AXI - arch_imp (ECHO_MODULE_v1_0_S00_AXI.vhd), ECHO_MODULE_INST - ECHO_MODULE - RTL (ECHO_MODULE.vhd)]", 3, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ECHO_MODULE_v1_0 - arch_imp (ECHO_MODULE_v1_0.vhd), ECHO_MODULE_v1_0_S00_AXI_inst - ECHO_MODULE_v1_0_S00_AXI - arch_imp (ECHO_MODULE_v1_0_S00_AXI.vhd), ECHO_MODULE_INST - ECHO_MODULE - RTL (ECHO_MODULE.vhd)]", 3, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("ECHO_MODULE.vhd", 287, 187); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "ECHO_MODULE.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("ECHO_MODULE.vhd", 224, 488); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 199, 503); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 214, 531); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 192, 496); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 219, 524); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 221, 538); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 221, 553); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 221, 568); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 220, 581); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 201, 597); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 194, 598); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 184, 484); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("ECHO_MODULE.vhd", 172, 491); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 167, 491); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ECHO_MODULE_v1_0 - arch_imp (ECHO_MODULE_v1_0.vhd), ECHO_MODULE_v1_0_S00_AXI_inst - ECHO_MODULE_v1_0_S00_AXI - arch_imp (ECHO_MODULE_v1_0_S00_AXI.vhd)]", 2, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ECHO_MODULE_v1_0 - arch_imp (ECHO_MODULE_v1_0.vhd), ECHO_MODULE_v1_0_S00_AXI_inst - ECHO_MODULE_v1_0_S00_AXI - arch_imp (ECHO_MODULE_v1_0_S00_AXI.vhd)]", 2, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ECHO_MODULE_v1_0 - arch_imp (ECHO_MODULE_v1_0.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ECHO_MODULE_v1_0 - arch_imp (ECHO_MODULE_v1_0.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 5,474 MB. GUI used memory: 77 MB. Current time: 5/20/17 9:31:34 AM EEST
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - ECHO_MODULE", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // ao:v (JViewport:JComponent, cv:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cv:JFrame)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 8 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_DO_No", "No"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ECHO_MODULE.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ECHO_MODULE_v1_0_S00_AXI.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - ECHO_MODULE", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cv:JFrame)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 9 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// bL:g (cv:JFrame):  Package IP : addNotify
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_DO_Yes", "Yes"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,469 MB. GUI used memory: 76 MB. Current time: 5/20/17 9:32:01 AM EEST
+// Tcl Message: close_project -delete 
+dismissDialog("Package IP"); // bL:g (cv:JFrame)
+// Tcl Message: ****** Webtalk v2016.1 (64-bit)   **** SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016   **** IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source /home/INTRA/chakal/workspace/project/vivado/project.tmp/ECHO_MODULE_v1_0_project/ECHO_MODULE_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace INFO: [Common 17-206] Exiting Webtalk at Sat May 20 09:32:01 2017... 
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog -rebuild -repo_path /home/INTRA/chakal/workspace/project/ip_repo/ECHO_MODULE_1.0 
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository '/home/INTRA/chakal/workspace/project/ip_repo/ECHO_MODULE_1.0' 
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_REPORT_IP_STATUS, "Report IP Status"); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// bL:g (cv:JFrame):  Report IP Status : addNotify
+// Tcl Message: report_ip_status -name ip_status  
+dismissDialog("Report IP Status"); // bL:g (cv:JFrame)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a:JButton (JPanel:JComponent, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// Tcl Message: export_ip_user_files -of_objects [get_ips  project_ECHO_MODULE_0_1] -no_script -reset -quiet 
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// bL:g (cv:JFrame):  Upgrade IP : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: upgrade_ip -vlnv xilinx.com:user:ECHO_MODULE:1.0 [get_ips  project_ECHO_MODULE_0_1] -log ip_upgrade.log 
+// Tcl Message: Upgrading '/home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd' 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded project_ECHO_MODULE_0_1 (ECHO_MODULE_v1.0 1.0) from revision 7 to revision 9 
+// Tcl Message: Wrote  : </home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to '/home/INTRA/chakal/workspace/project/vivado/ip_upgrade.log'. 
+// aD:x (cv:JFrame): Generate Output Products: addNotify
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aD:x)
+// bL:g (cv:JFrame):  Managing Output Products : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: generate_target all [get_files  /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: VHDL Output written to : /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/hdl/project.vhd VHDL Output written to : /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/hdl/project_wrapper.vhd Wrote  : </home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd>  
+// Tcl Message: Exporting to file /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/hw_handoff/project.hwh 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Generated Block Design Tcl file /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/hw_handoff/project_bd.tcl Generated Hardware Definition File /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/hdl/project.hwdef 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 6377.652 ; gain = 2.203 ; free physical = 2274 ; free virtual = 5646 
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd] -no_script -force -quiet 
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: export_simulation -of_objects [get_files /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd] -directory /home/INTRA/chakal/workspace/project/vivado/project.ip_user_files/sim_scripts -ip_user_files_dir /home/INTRA/chakal/workspace/project/vivado/project.ip_user_files -ipstatic_source_dir /home/INTRA/chakal/workspace/project/vivado/project.ip_user_files/ipstatic -force -quiet 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 17 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_GENERATION_OF_OUTPUT_PRODUCTS_COMPLETED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 16 seconds
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // i:l (JPanel:JComponent, cv:JFrame)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sat May 20 09:32:59 2017] Launched synth_1... Run output will be captured here: /home/INTRA/chakal/workspace/project/vivado/project.runs/synth_1/runme.log [Sat May 20 09:32:59 2017] Launched impl_1... Run output will be captured here: /home/INTRA/chakal/workspace/project/vivado/project.runs/impl_1/runme.log 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// p:g (cv:JFrame): Re-customize IP: addNotify
+// Elapsed time: 124 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port B Options", 2); // aT:g (F:JPanel, p:g)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 73 MB. Current time: 5/20/17 9:35:04 AM EEST
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aT:g (F:JPanel, p:g)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 449 seconds
+dismissDialog("Re-customize IP"); // p:g (cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 234 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// af:x (cv:JFrame): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, af:x)
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // JButton:AbstractButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Export Hardware"); // af:x (cv:JFrame)
+// Tcl Message: file copy -force /home/INTRA/chakal/workspace/project/vivado/project.runs/impl_1/project_wrapper.sysdef /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// ai:x (cv:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ai:x)
+dismissDialog("Launch SDK"); // ai:x (cv:JFrame)
+// Tcl Message: launch_sdk -workspace /home/INTRA/chakal/workspace/project/vivado/project.sdk -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/INTRA/chakal/workspace/project/vivado/project.sdk -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 354 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ECHO_MODULE.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // i:l (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 258, 491); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 273, 491); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 288, 489); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 330, 489); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 200, 506); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 299, 501); // F:bH (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ECHO_MODULE.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 686, 287, 1283, 753, false, false, false, true, false); // ew:aK (TdiGroup:JideTabbedPane, cv:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k:x (cv:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, k:x)
+// bL:g (cv:JFrame):  Edit in IP Packager : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name ECHO_MODULE_v1_0_project -directory /home/INTRA/chakal/workspace/project/vivado/project.tmp/ECHO_MODULE_v1_0_project /home/INTRA/chakal/workspace/project/ip_repo/ECHO_MODULE_1.0/component.xml 
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/cad/x_16/Vivado/2016.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// 'i' command handler elapsed time: 4 seconds
+dismissDialog("Edit in IP Packager"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ECHO_MODULE_v1_0 - arch_imp (ECHO_MODULE_v1_0.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ECHO_MODULE_v1_0 - arch_imp (ECHO_MODULE_v1_0.vhd), ECHO_MODULE_v1_0_S00_AXI_inst - ECHO_MODULE_v1_0_S00_AXI - arch_imp (ECHO_MODULE_v1_0_S00_AXI.vhd), ECHO_MODULE_INST - ECHO_MODULE - RTL (ECHO_MODULE.vhd)]", 3, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ECHO_MODULE_v1_0 - arch_imp (ECHO_MODULE_v1_0.vhd), ECHO_MODULE_v1_0_S00_AXI_inst - ECHO_MODULE_v1_0_S00_AXI - arch_imp (ECHO_MODULE_v1_0_S00_AXI.vhd), ECHO_MODULE_INST - ECHO_MODULE - RTL (ECHO_MODULE.vhd)]", 3, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("ECHO_MODULE.vhd", 298, 520); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 41 seconds
+selectCodeEditor("ECHO_MODULE.vhd", 238, 427); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 47 seconds
+selectCodeEditor("ECHO_MODULE.vhd", 305, 442); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectCodeEditor("ECHO_MODULE.vhd", 310, 438); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("ECHO_MODULE.vhd", 278, 477); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 34 seconds
+selectCodeEditor("ECHO_MODULE.vhd", 206, 473); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "ECHO_MODULE.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 308, 497); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("ECHO_MODULE.vhd", 192, 451); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("ECHO_MODULE.vhd", 217, 529); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 31 seconds
+selectCodeEditor("ECHO_MODULE.vhd", 494, 682); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 426, 685); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 623, 684); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 621, 686); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 617, 684); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 586, 685); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 604, 681); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 698, 699); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 505, 700); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - ECHO_MODULE", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // ao:v (JViewport:JComponent, cv:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cv:JFrame)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 10 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// bL:g (cv:JFrame):  Package IP : addNotify
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_DO_Yes", "Yes"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,504 MB. GUI used memory: 85 MB. Current time: 5/20/17 9:57:46 AM EEST
+// Tcl Message: close_project -delete 
+dismissDialog("Package IP"); // bL:g (cv:JFrame)
+// Tcl Message: ****** Webtalk v2016.1 (64-bit)   **** SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016   **** IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source /home/INTRA/chakal/workspace/project/vivado/project.tmp/ECHO_MODULE_v1_0_project/ECHO_MODULE_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace INFO: [Common 17-206] Exiting Webtalk at Sat May 20 09:57:47 2017... 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog -rebuild -repo_path /home/INTRA/chakal/workspace/project/ip_repo/ECHO_MODULE_1.0 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository '/home/INTRA/chakal/workspace/project/ip_repo/ECHO_MODULE_1.0' 
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_REPORT_IP_STATUS, "Report IP Status"); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// bL:g (cv:JFrame):  Report IP Status : addNotify
+// Tcl Message: report_ip_status -name ip_status  
+dismissDialog("Report IP Status"); // bL:g (cv:JFrame)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a:JButton (JPanel:JComponent, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// Tcl Message: export_ip_user_files -of_objects [get_ips  project_ECHO_MODULE_0_1] -no_script -reset -quiet 
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// bL:g (cv:JFrame):  Upgrade IP : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: upgrade_ip -vlnv xilinx.com:user:ECHO_MODULE:1.0 [get_ips  project_ECHO_MODULE_0_1] -log ip_upgrade.log 
+// Tcl Message: Upgrading '/home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd' 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded project_ECHO_MODULE_0_1 (ECHO_MODULE_v1.0 1.0) from revision 9 to revision 10 
+// Tcl Message: Wrote  : </home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to '/home/INTRA/chakal/workspace/project/vivado/ip_upgrade.log'. 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// aD:x (cv:JFrame): Generate Output Products: addNotify
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aD:x)
+// bL:g (cv:JFrame):  Managing Output Products : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: generate_target all [get_files  /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: VHDL Output written to : /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/hdl/project.vhd VHDL Output written to : /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/hdl/project_wrapper.vhd Wrote  : </home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd>  
+// Tcl Message: Exporting to file /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/hw_handoff/project.hwh 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Generated Block Design Tcl file /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/hw_handoff/project_bd.tcl Generated Hardware Definition File /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/hdl/project.hwdef 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 6406.039 ; gain = 0.000 ; free physical = 2414 ; free virtual = 5510 
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd] -no_script -force -quiet 
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: export_simulation -of_objects [get_files /home/INTRA/chakal/workspace/project/vivado/project.srcs/sources_1/bd/project/project.bd] -directory /home/INTRA/chakal/workspace/project/vivado/project.ip_user_files/sim_scripts -ip_user_files_dir /home/INTRA/chakal/workspace/project/vivado/project.ip_user_files -ipstatic_source_dir /home/INTRA/chakal/workspace/project/vivado/project.ip_user_files/ipstatic -force -quiet 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 16 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_GENERATION_OF_OUTPUT_PRODUCTS_COMPLETED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// af:x (cv:JFrame): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // h:JCheckBox (JPanel:JComponent, af:x): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, af:x)
+selectButton("PAResourceItoN.NewExportHardwareDialog_BITSTREAM_OUT_OF_DATE_DO_YOU_WANT_Yes", "Yes"); // JButton:AbstractButton (JPanel:JComponent, U:JDialog)
+// 'n' command handler elapsed time: 4 seconds
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // JButton:AbstractButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Export Hardware"); // af:x (cv:JFrame)
+// Tcl Message: file copy -force /home/INTRA/chakal/workspace/project/vivado/project.runs/impl_1/project_wrapper.sysdef /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Elapsed time: 21 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// ai:x (cv:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ai:x)
+// 'p' command handler elapsed time: 3 seconds
+selectButton("PAResourceItoN.NewLaunchHardwareDialog_EXPORTED_HARDWARE_SYSTEM_OUT_OF_DATE_Yes", "Yes"); // JButton:AbstractButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Launch SDK"); // ai:x (cv:JFrame)
+// Tcl Message: launch_sdk -workspace /home/INTRA/chakal/workspace/project/vivado/project.sdk -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/INTRA/chakal/workspace/project/vivado/project.sdk -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 61 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sat May 20 10:00:08 2017] Launched synth_1... Run output will be captured here: /home/INTRA/chakal/workspace/project/vivado/project.runs/synth_1/runme.log [Sat May 20 10:00:08 2017] Launched impl_1... Run output will be captured here: /home/INTRA/chakal/workspace/project/vivado/project.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 659 seconds
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // i:l (JPanel:JComponent, cv:JFrame)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// bL:g (cv:JFrame):  Report IP Status : addNotify
+// Tcl Message: report_ip_status -name ip_status  
+dismissDialog("Report IP Status"); // bL:g (cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 75 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// af:x (cv:JFrame): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, af:x)
+// 'n' command handler elapsed time: 3 seconds
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // JButton:AbstractButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Export Hardware"); // af:x (cv:JFrame)
+// Tcl Message: file copy -force /home/INTRA/chakal/workspace/project/vivado/project.runs/impl_1/project_wrapper.sysdef /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// [GUI Memory]: 161 MB (+219kb) [02:57:19]
+// Elapsed time: 37 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// ai:x (cv:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ai:x)
+dismissDialog("Launch SDK"); // ai:x (cv:JFrame)
+// Tcl Message: launch_sdk -workspace /home/INTRA/chakal/workspace/project/vivado/project.sdk -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/INTRA/chakal/workspace/project/vivado/project.sdk -hwspec /home/INTRA/chakal/workspace/project/vivado/project.sdk/project_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 364 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ECHO_MODULE.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // i:l (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 194, 428); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 194, 428, false, false, false, false, true); // F:bH (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("ECHO_MODULE.vhd", 286, 429); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 212, 432); // F:bH (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 83 MB. Current time: 5/20/17 10:27:49 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 82 MB. Current time: 5/20/17 10:57:49 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/20/17 11:27:50 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 80 MB. Current time: 5/20/17 11:57:49 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/20/17 12:27:50 PM EEST
+// Elapsed time: 7734 seconds
+selectCodeEditor("ECHO_MODULE.vhd", 417, 234); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("ECHO_MODULE.vhd", 485, 216); // F:bH (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 163 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/20/17 12:57:50 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/20/17 1:27:50 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/20/17 1:57:50 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/20/17 2:27:49 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/20/17 2:57:50 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/20/17 3:27:50 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/20/17 3:57:50 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/20/17 4:27:50 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/20/17 4:57:50 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/20/17 5:27:50 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/20/17 5:57:50 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/20/17 6:27:50 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/20/17 6:57:50 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/20/17 7:27:50 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 82 MB. Current time: 5/20/17 7:57:50 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/20/17 8:27:50 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/20/17 8:57:50 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/20/17 9:27:51 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/20/17 9:57:51 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 82 MB. Current time: 5/20/17 10:27:51 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/20/17 10:57:51 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/20/17 11:27:51 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/20/17 11:57:51 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/21/17 12:27:51 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/21/17 12:57:51 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/21/17 1:27:51 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/21/17 1:57:51 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/21/17 2:27:51 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/21/17 2:57:51 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/21/17 3:27:51 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/21/17 3:57:52 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/21/17 4:27:52 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/21/17 4:57:52 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/21/17 5:27:52 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/21/17 5:57:52 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/21/17 6:27:52 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/21/17 6:57:52 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/21/17 7:27:52 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/21/17 7:57:52 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/21/17 8:27:52 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/21/17 8:57:52 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/21/17 9:27:52 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/21/17 9:57:52 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/21/17 10:27:52 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/21/17 10:57:53 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/21/17 11:27:53 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 81 MB. Current time: 5/21/17 11:57:53 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,515 MB. GUI used memory: 81 MB. Current time: 5/21/17 12:27:53 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,515 MB. GUI used memory: 81 MB. Current time: 5/21/17 12:57:53 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,515 MB. GUI used memory: 81 MB. Current time: 5/21/17 1:27:53 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,515 MB. GUI used memory: 81 MB. Current time: 5/21/17 1:57:53 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,515 MB. GUI used memory: 81 MB. Current time: 5/21/17 2:27:53 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,515 MB. GUI used memory: 80 MB. Current time: 5/21/17 2:57:53 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,515 MB. GUI used memory: 81 MB. Current time: 5/21/17 3:27:53 PM EEST
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// p:g (cv:JFrame): Re-customize IP: addNotify
+// Elapsed time: 98431 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port B Options", 2); // aT:g (F:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aT:g (F:JPanel, p:g)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,527 MB. GUI used memory: 87 MB. Current time: 5/21/17 3:51:54 PM EEST
+// Elapsed time: 230 seconds
+dismissDialog("Re-customize IP"); // p:g (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,527 MB. GUI used memory: 84 MB. Current time: 5/21/17 4:21:53 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,527 MB. GUI used memory: 83 MB. Current time: 5/21/17 4:51:53 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,527 MB. GUI used memory: 83 MB. Current time: 5/21/17 5:21:54 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,527 MB. GUI used memory: 83 MB. Current time: 5/21/17 5:51:54 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,527 MB. GUI used memory: 83 MB. Current time: 5/21/17 6:21:54 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,527 MB. GUI used memory: 84 MB. Current time: 5/21/17 6:51:54 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,527 MB. GUI used memory: 84 MB. Current time: 5/21/17 7:21:54 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,527 MB. GUI used memory: 84 MB. Current time: 5/21/17 7:51:54 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,527 MB. GUI used memory: 84 MB. Current time: 5/21/17 8:21:54 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,527 MB. GUI used memory: 84 MB. Current time: 5/21/17 8:51:54 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,527 MB. GUI used memory: 84 MB. Current time: 5/21/17 9:21:54 PM EEST
+// Elapsed time: 21282 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 422, 108, 1283, 753, false, false, false, true, false); // ew:aK (TdiGroup:JideTabbedPane, cv:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_SAVE_AS_PDF_FILE, "Save as PDF File..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// cA:x (cv:JFrame): Save as PDF File: addNotify
+selectComboBox(PAResourceQtoS.RSBSaveAsPDFDialog_ORIENTATION, "Landscape", 1); // f:JComboBox (JPanel:JComponent, cA:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, cA:x)
+// Tcl Command: 'write_bd_layout -format pdf -orientation landscape /home/INTRA/chakal/workspace/project/vivado/project.pdf'
+// TclEventType: RSB_WRITE_DIAGRAM
+// Tcl Message: write_bd_layout -format pdf -orientation landscape /home/INTRA/chakal/workspace/project/vivado/project.pdf 
+// Tcl Message: /home/INTRA/chakal/workspace/project/vivado/project.pdf 
+dismissDialog("Save as PDF File"); // cA:x (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,527 MB. GUI used memory: 83 MB. Current time: 5/21/17 9:51:54 PM EEST

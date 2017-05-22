@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/INTRA/chakal/workspace/project/vivado/ECHO_MODULE/ECHO_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="echo_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/echo_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/echo_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/echo_tb/sample_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sample_clk</obj_property>
+      <obj_property name="ObjectShortName">sample_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/echo_tb/echo_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">echo_en</obj_property>
+      <obj_property name="ObjectShortName">echo_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/echo_tb/audio_in_l" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_in_l[23:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_in_l[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/echo_tb/audio_in_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_in_r[23:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_in_r[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/echo_tb/audio_in_l_mem" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_in_l_mem[23:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_in_l_mem[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/echo_tb/audio_in_r_mem" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_in_r_mem[23:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_in_r_mem[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/echo_tb/mem_rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_rst</obj_property>
+      <obj_property name="ObjectShortName">mem_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/echo_tb/wrt_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wrt_en</obj_property>
+      <obj_property name="ObjectShortName">wrt_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/echo_tb/add_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">add_a[12:0]</obj_property>
+      <obj_property name="ObjectShortName">add_a[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/echo_tb/add_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">add_b[12:0]</obj_property>
+      <obj_property name="ObjectShortName">add_b[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/echo_tb/audio_out_l" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_out_l[23:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_out_l[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/echo_tb/audio_out_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_out_r[23:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_out_r[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/echo_tb/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/echo_tb/sample_clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">sample_clk_period</obj_property>
+      <obj_property name="ObjectShortName">sample_clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/echo_tb/uut/wrt_ptr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wrt_ptr[12:0]</obj_property>
+      <obj_property name="ObjectShortName">wrt_ptr[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/echo_tb/uut/rd_ptr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rd_ptr[12:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_ptr[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

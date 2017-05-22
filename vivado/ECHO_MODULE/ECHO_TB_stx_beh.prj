@@ -1,0 +1,2 @@
+vhdl isim_temp "ECHO_MODULE.vhd"
+vhdl isim_temp "ECHO_TB.vhd"
