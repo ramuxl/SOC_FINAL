@@ -50,7 +50,14 @@
 #define KEY_3 7
 #define ZERO_KEY 8
 #define QUIT 9
-  
+ 
+ //LED FILES
+ #define LED0 "/sys/class/gpio/gpio192/value"
+ #define LED1 "/sys/class/gpio/gpio193/value"
+ #define LED2 "/sys/class/gpio/gpio194/value"
+ #define LED3 "/sys/class/gpio/gpio195/value"
+ #define LED4 "/sys/class/gpio/gpio196/value"
+ #define LED5 "/sys/class/gpio/gpio197/value"
 
 
 #define REG_FIL_NET_0   *((unsigned *)(ptr3 + 0))
@@ -290,9 +297,6 @@ int main(int argc, char *argv[])
     *REG_VOL_NET_0 = 256;
     *REG_VOL_NET_1 = 256;
  
-	G_FIL_NET_17 = 0;
-	G_FIL_NET_18 = 0;
-	G_FIL_NET_19 = 0;
 	
     *REG_VOL_LINE_0 = 256;
     *REG_VOL_LINE_1 = 256;
@@ -362,8 +366,10 @@ int main(int argc, char *argv[])
 	 perror("Error: Failed to create the CLIThread with retrun code\n");
 	 exit(-1);
 	}   
-		
-	pthread_join(CLIThread,NULL);    
+	
+	//wait for CLIThread exit
+	pthread_join(CLIThread,NULL);
+	   
 	//unmap
     munmap(ptr1, pageSize);
     munmap(ptr2, pageSize);
@@ -494,6 +500,8 @@ void Set_Volume(unsigned *Vol_R, unsigned *Vol_L){
 void Set_Filter (p_user_thread_arg * prmt, int filter_id){
 	
 	int ch;
+	/*LED's*/
+	FILE * fled0, * fled1, *fled2, *fled3, *fled4, *fled5;
 	//print usage
 	printf("/*Use the function keys as follow*/ \n");
 	printf("1 to enable or disable high pass\n");
@@ -510,32 +518,50 @@ void Set_Filter (p_user_thread_arg * prmt, int filter_id){
 		switch(ch){
 			case KEY_1:
 				if (filter_id == FILTERNETID){
+					if((fled0 = fopen(LED0, "w")) == NULL){perror(LED0);}
 					*(prmt->Filter0Net) = !(*(prmt->Filter0Net));
 					printf("Low pass %s\n", (*(prmt->Filter0Net) == 0)? "enabled" : "disabled");
+					fprintf(fled0,"%d",*(prmt->Filter0Net));
+					fclose(fled0);
 				}
 				else{
+					if((fled3 = fopen(LED3, "w")) == NULL){perror(LED3);}
 					*(prmt->Filter0line) = !(*(prmt->Filter0line));
 					printf("Low pass %s\n", (*(prmt->Filter0line) == 0)? "enabled" : "disabled");
+					fprintf(fled3,"%d",*(prmt->Filter0line));
+					fclose(fled3);
 				}
 				break;
 			case KEY_2:
 				if (filter_id == FILTERNETID){
+					if((fled1 = fopen(LED1, "w")) == NULL){perror(LED1);}
 					*(prmt->Filter1Net) = !(*(prmt->Filter1Net));
 					printf("Band pass %s\n", (*(prmt->Filter1Net) == 0)? "enabled" : "disabled");
+					fprintf(fled1,"%d",*(prmt->Filter1Net));
+					fclose(fled1);
 				}
 				else{
+					if((fled4 = fopen(LED4, "w")) == NULL){perror(LED4);}
 					*(prmt->Filter1line) = !(*(prmt->Filter1line));
 					printf("Band pass %s\n", (*(prmt->Filter1line) == 0)? "enabled" : "disabled");
+					fprintf(fled4,"%d",*(prmt->Filter1line));
+					fclose(fled4);
 				}
 				break;
 			case KEY_3:
 				if (filter_id == FILTERNETID){
+					if((fled2 = fopen(LED2, "w")) == NULL){perror(LED2);}
 					*(prmt->Filter2Net) = !(*(prmt->Filter2Net));
 					printf("High pass %s\n", (*(prmt->Filter2Net) == 0)? "enabled" : "disabled");
+					fprintf(fled2,"%d",*(prmt->Filter2Net));
+					fclose(fled2);
 				}
 				else{
+					if((fled5 = fopen(LED5, "w")) == NULL){perror(LED5);}
 					*(prmt->Filter2line) = !(*(prmt->Filter2line));
 					printf("High pass %s\n", (*(prmt->Filter2line) == 0)? "enabled" : "disabled");
+					fprintf(fled5,"%d",*(prmt->Filter2line));
+					fclose(fled5);
 				}
 				break;
 			case UP_KEY:
